@@ -26,7 +26,9 @@ const MapComponentAPI = {
  */
 const MapComponent = Component.extend(ProcessOptions, RegisterEvents, {
   tagName: '',
-
+  
+  class: '',
+  
   _type: null,
   _requiredOptions: ['map'],
 
